@@ -7,9 +7,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server",
-    "dev": "nodemon backend/server",
-    "create": "node backend/create",
+    "start": "node exss/server",
+    "dev": "nodemon exss/server",
+    "create": "node exss/create",
     "test": "jest"
   },
   "keywords": [],

@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-const transporter = require('../../backend/lib/emailServer');
+const transporter = require('../../exss/lib/emailServer');
 
 const SEND_EMAIL =  (name, last_name, email, password) => {
 

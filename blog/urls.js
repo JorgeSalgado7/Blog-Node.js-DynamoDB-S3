@@ -1,5 +1,5 @@
 const ROUTER = require('express').Router()
-const STORE_IMAGE_S3 = require('../backend/lib/storageS3')
+const STORE_IMAGE_S3 = require('../exss/lib/storageS3')
 
 //DEFINE YOUR ROUTES HERE
 const CREATE_BLOG = require('./views/create')

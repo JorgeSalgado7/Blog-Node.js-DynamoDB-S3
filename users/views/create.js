@@ -11,7 +11,7 @@ const USER_EXISTS = require('../validator/userExists')
 //UTILS
 const CREATE_PASSWORD = require('../utils/createPassword')
 const SEND_EMAIL = require('../utils/email')
-const DATETIME = require('../../backend/lib/datetimeConfig')
+const DATETIME = require('../../exss/lib/datetimeConfig')
 
 const CREATE_USER = async (req, res) => {
 

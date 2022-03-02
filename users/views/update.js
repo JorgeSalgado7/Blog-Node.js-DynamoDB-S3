@@ -3,7 +3,7 @@ const DYNAMO = new AWS.DynamoDB.DocumentClient();
 require('dotenv').config()
 
 //UTILS
-const DATETIME = require('../../backend/lib/datetimeConfig')
+const DATETIME = require('../../exss/lib/datetimeConfig')
 
 const EDITAR_USUARIO = async (req, res) => {
 

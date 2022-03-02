@@ -1,7 +1,7 @@
 const AWS = require("aws-sdk");
 const DYNAMO = new AWS.DynamoDB.DocumentClient();
 require('dotenv').config()
-const DELETE_FILE_S3 = require('../../backend/lib/deleteFileS3')
+const DELETE_FILE_S3 = require('../../exss/lib/deleteFileS3')
 
 const DELETE_BLOG = async (req, res) => {
 

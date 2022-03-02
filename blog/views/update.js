@@ -2,8 +2,8 @@ const AWS = require("aws-sdk");
 const DYNAMO = new AWS.DynamoDB.DocumentClient()
 require('dotenv').config()
 const URL_GENERATOR = require('@jorge-salgado/url-generator');
-const DELETE_FILE_S3 = require('../../backend/lib/deleteFileS3')
-const DATETIME = require('../../backend/lib/datetimeConfig')
+const DELETE_FILE_S3 = require('../../exss/lib/deleteFileS3')
+const DATETIME = require('../../exss/lib/datetimeConfig')
 
 const UPDATE_BLOG = async (req, res) => {
 

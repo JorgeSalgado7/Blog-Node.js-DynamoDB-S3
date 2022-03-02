@@ -4,7 +4,7 @@ const BLOG_VALIDATOR = require('../validator/blogFields')
 const URL_GENERATOR = require('@jorge-salgado/url-generator');
 const uuid = require('uuid')
 require('dotenv').config()
-const DATETIME = require('../../backend/lib/datetimeConfig')
+const DATETIME = require('../../exss/lib/datetimeConfig')
 
 const CREATE_BLOG = async (req, res) => {
 
